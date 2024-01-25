@@ -1,9 +1,9 @@
-import React from "react";
+import { Outlet } from "react-router-dom";
 
 const Root = () => {
   return (
-    <div>
-      <h1>home</h1>
+    <div className="w-[1440px]  mx-auto">
+      <Outlet></Outlet>
     </div>
   );
 };
