@@ -5,10 +5,10 @@ import RightSidePart from "../../Components/RightSidePart/RightSidePart";
 const Home = () => {
   return (
     <div className="flex items-center justify-center">
-      <div className="max-w-[666px]">
+      <div className="max-w-[680px]">
         <LeftSidePart></LeftSidePart>
       </div>
-      <div className="max-w-[774px]">
+      <div className="max-w-[760px]">
         <RightSidePart></RightSidePart>
       </div>
     </div>
